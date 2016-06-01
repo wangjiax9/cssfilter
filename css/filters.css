@@ -1,0 +1,25 @@
+body
+{
+  background-color:#03030a;
+	min-width: 800px;
+	min-height: 400px
+}
+img
+{
+  width:20%;
+  float:left; 
+  margin:0;
+  -webkit-transition: all 1s
+}
+
+.saturate {-webkit-filter: saturate(3);} /* 饱和度 */
+.grayscale {-webkit-filter: grayscale(100%);} /* 灰度 */
+.contrast {-webkit-filter: contrast(160%);} /* 对比度 */
+.brightness {-webkit-filter: brightness(0.25);} /* 亮度 */
+.blur {-webkit-filter: blur(3px);} /* 高斯模糊 */
+.invert {-webkit-filter: invert(100%);} /* 反色 */
+.sepia {-webkit-filter: sepia(100%);} /* sepia 老照片棕褐色处理 */
+.huerotate {-webkit-filter: hue-rotate(180deg);} /* 色相 */
+.opacity {-webkit-filter: opacity(50%);} /* 透明度 */
+
+img:hover{-webkit-filter:none;}
